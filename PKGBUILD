@@ -22,16 +22,12 @@ depends=('ruby>=1.8.7'
          'expat'
          'cdrkit'
          'log4cpp>=1.0'
-         'ruby-opennebula>=4.14.2'
-         'ruby-sinatra'
-         'ruby-builder'
-         'ruby-nokogiri')
+         'libmariadbclient>=10.1.13')
 makedepends=('xmlrpc-c>=1.31'
              'pkgconfig'
              'scons>=0.98')
 optdepends=('nfs-utils: for using the shared file system storage model'
-            'mariadb>=5.1: optional replacement for SQLite as the DB back-end'
-            'libmariadbclient>=5.1: required if using MariaDB/MySQL instead of SQLite')
+            'mariadb>=5.1: optional replacement for SQLite as the DB back-end')
 conflicts=('opennebula-unstable')
 install=opennebula.install
 changelog=ChangeLog

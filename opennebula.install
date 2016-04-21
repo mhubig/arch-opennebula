@@ -13,6 +13,10 @@ post_install() {
 		echo ">> You must edit the password in /var/lib/one/.one/one_auth"
 	fi
 	chown oneadmin:cloud -R /var/log/one /var/lib/one /run/one /run/lock/one
+
+        echo ">> You need to run /usr/share/one/install_gems as user oneadmin in"
+        echo ">> order to install the required ruby dependencies. And be sure to add"
+        echo ">> $(ruby -rubygems -e 'puts Gem.user_dir')/bin to oneadmin's PATH"
 }
 
 pre_remove() {
