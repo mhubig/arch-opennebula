@@ -2,11 +2,12 @@
 # Contributor: Jason St. John <jstjohn .. purdue . edu>
 # Contributor: Mikhail Kulemin <mihkulemin@gmail.com>
 # Contributor: Michael Pusterhofer <pusterhofer (at) student (dot) tugraz (dot) at>
+# Contributor: Markus Hubig <mhubig@gmail.com>
 
 pkgname=opennebula
 _unstable_pkg=opennebula-unstable
 pkgver=4.14.2
-pkgrel=2
+pkgrel=3
 pkgdesc="Virtual management infrastructure as a service (IaaS) toolkit for cloud computing (NOTE: Read the PKGBUILD!)"
 arch=('i686' 'x86_64')
 url='http://docs.opennebula.org/stable'
